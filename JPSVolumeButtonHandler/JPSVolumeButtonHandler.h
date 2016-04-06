@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+//! Project version number for JPSVolumeButtonHandler.
+FOUNDATION_EXPORT double JPSVolumeButtonHandlerVersionNumber;
+
+//! Project version string for JPSVolumeButtonHandler.
+FOUNDATION_EXPORT const unsigned char JPSVolumeButtonHandlerVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <JPSVolumeButtonHandler/PublicHeader.h>
+
+
 typedef void (^JPSVolumeButtonBlock)();
 
 @interface JPSVolumeButtonHandler : NSObject
